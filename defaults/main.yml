@@ -22,6 +22,8 @@ homebrew_installed_packages:
   - helm
   - shyaml
   - pip
+
+
 homebrew_uninstalled_packages: []
 
 homebrew_upgrade_all_packages: no
@@ -35,17 +37,17 @@ homebrew_cask_apps:
   - google-chrome
   - dropbox
   - firefox
-  - limechat
   - vagrant
   - virtualbox
   - slack
   - istat-menus
   - atom
   - android-file-transfer
-  - limechat
-  - spotify
   - dockertoolbox
   - intellij-idea-ce
+  - visual-studio-code
+  - iterm2
+  -
 
 homebrew_cask_uninstalled_apps: []
 
