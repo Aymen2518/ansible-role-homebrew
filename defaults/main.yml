@@ -45,6 +45,7 @@ homebrew_cask_apps:
   - limechat
   - spotify
   - dockertoolbox
+  - intellij-idea-ce
 
 homebrew_cask_uninstalled_apps: []
 
