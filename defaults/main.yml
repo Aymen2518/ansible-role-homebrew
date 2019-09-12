@@ -5,16 +5,46 @@ homebrew_prefix: /usr/local
 homebrew_install_path: "{{ homebrew_prefix }}/Homebrew"
 homebrew_brew_bin_path: "{{ homebrew_prefix }}/bin"
 
-homebrew_installed_packages: []
-
+homebrew_installed_packages:
+  - ansible
+  - docker
+  - git
+  - ssh-copy-id
+  - openssl
+  - wget
+  - brew-cask
+  - dockutil
+  - zsh
+  - tmux
+  - iterm2
+  - tfenv
+  - kubectx
+  - helm
+  - shyaml
+  - pip
 homebrew_uninstalled_packages: []
 
 homebrew_upgrade_all_packages: no
 
 homebrew_taps:
   - homebrew/core
+  - caskroom/cask
+  - caskroom/versions
 
-homebrew_cask_apps: []
+homebrew_cask_apps:
+  - google-chrome
+  - dropbox
+  - firefox
+  - limechat
+  - vagrant
+  - virtualbox
+  - slack
+  - istat-menus
+  - atom
+  - android-file-transfer
+  - limechat
+  - spotify
+  - dockertoolbox
 
 homebrew_cask_uninstalled_apps: []
 
